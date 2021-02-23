@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         distance = SphericalUtil.computeDistanceBetween(sydney, Brisbane)
-
+///aa
         Toast.makeText(this, "Distance between Sydney and Brisbane is \n " + String.format("%.2f", distance!! / 1000) + "km", Toast.LENGTH_SHORT).show();
     }
 }
